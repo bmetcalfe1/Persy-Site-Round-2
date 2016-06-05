@@ -3,8 +3,12 @@ body {
 	height: 100%;
 }
 
-.navbar {
-	color:#003300;
+.navbar-custom {
+	background-color:#003300;
+}
+
+.nav-link {
+	color:white;
 }
 
 #cover {
