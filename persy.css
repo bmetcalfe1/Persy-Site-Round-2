@@ -3,6 +3,10 @@ body {
 	height: 100%;
 }
 
+.navbar {
+	color:#003300;
+}
+
 #cover {
 	background: url("imgs/oldToronto.jpg") center center no-repeat;
 	background-size: cover;
