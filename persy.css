@@ -5,17 +5,31 @@ body {
 
 .navbar-custom {
 	background-color:#003366;
+	padding: 3rem 0;
 }
 
 .nav-link {
 	color:white;
+	font-size: 30px;
+	text-align: center;
 }
 
 #cover {
+
+}
+
+#cover h1 {
+	font-size: 5rem;
+	color: #003399;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+#main-footer {
 	background: url("imgs/oldToronto.jpg") center center no-repeat;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
+	background-size: cover;	
+	height: 155px;
+	font-size: 0.8rem;
+	text-align: center;
 }
