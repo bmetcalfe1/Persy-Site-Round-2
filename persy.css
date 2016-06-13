@@ -7,16 +7,12 @@ body {
 
 }
 
-#cover h1 {
-	font-size: 5rem;
-	color: #003399;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-
 #coverAbout {
-	background: url("imgs/oldToronto.jpg") center center no-repeat;
+	background: url("imgs/oldToronto.jpg");
 	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -25,8 +21,11 @@ body {
 }
 
 #coverNow {
-	background: url("imgs/montreal.jpg") center center no-repeat;
+	background: url("imgs/montreal.jpg");
 	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: white;
 	height: 100%;
 	width: 100%;
@@ -35,11 +34,22 @@ body {
 }
 
 #coverContact {
-	background: url("imgs/eastEndToronto.jpg") center center no-repeat;
+	background: url("imgs/eastEndToronto.jpg");
 	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: white;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	align-items: center;
+}
+
+.titleclass {
+	text-align: center;
+	font-size: 24px;
+	color: #003399;
+	font-weight: bold;
+	text-transform: uppercase;
 }
